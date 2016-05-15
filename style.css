@@ -2508,15 +2508,21 @@ div.gform_wrapper .gform_footer {
         position: absolute;
         top: 7px;
         right: 25px;
-	font-family: 'Oswald', arial, serif;
-	font-weight: bold;
+    	font-family: 'Oswald', arial, serif;
+    	font-weight: bold;
     }
-    #mobile-more-button h4 {
-	border-bottom: none !important;
+    #mobile-more-button h4, #mobile-hire-latino-button h4 {
+	    border-bottom: none !important;
         font-size: 18px;
     }
-    #mobile-home-more h4 {
+    #mobile-home-more h4, #mobile-hire-latino-button h4 {
         padding: 5px 5px 5px 0 !important;
+    }
+    #mobile-hire-latino-button {
+        position: absolute;
+        right: 90px;
+        font-family: 'Oswald', arial, serif;
+        font-weight: bold;
     }
     #backhome {
         display: block !important;
@@ -2603,10 +2609,13 @@ div.gform_wrapper .gform_footer {
 }
 
 @media (max-width: 479px) {
+    #mobile-hire-latino-button {
+        right: 70px;
+    }
     #mobile-more-button {
         top: 0;
     }
-    #mobile-more-button h4 {
+    #mobile-more-button h4, #mobile-hire-latino-button h4 {
         font-size: 11px;
     }
 

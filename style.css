@@ -2611,8 +2611,9 @@
         /* hire latino page css */
         /* hire-latino css */
         .page-id-179 #content-sidebar-wrap,
-        .page-id-179 #content {
-            width: auto !important;
+        .page-id-179 #content,
+        .page-id-179 .entry-content p {
+            width: auto;
         }
     }
 

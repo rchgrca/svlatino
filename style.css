@@ -2520,6 +2520,7 @@ div.gform_wrapper .gform_footer {
     }
     #mobile-hire-latino-button {
         position: absolute;
+        top: 7px;
         right: 90px;
         font-family: 'Oswald', arial, serif;
         font-weight: bold;
@@ -2612,7 +2613,7 @@ div.gform_wrapper .gform_footer {
     #mobile-hire-latino-button {
         right: 70px;
     }
-    #mobile-more-button {
+    #mobile-more-button, #mobile-hire-latino-button {
         top: 0;
     }
     #mobile-more-button h4, #mobile-hire-latino-button h4 {

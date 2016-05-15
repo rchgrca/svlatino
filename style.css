@@ -2609,12 +2609,26 @@
         }
 
         /* hire latino page css */
-        /* hire-latino css */
         .page-id-179 #content-sidebar-wrap,
         .page-id-179 #content,
         .page-id-179 .entry-content p {
             width: auto;
         }
+
+        /* hire latino page single job listing page */
+        .single-job_listing #content-sidebar-wrap,
+        .single-job_listing #content {
+            width: 97%;
+        }
+        .single-job_listing #content img {
+            width: 40px;
+            height: 40px;
+            margin-top: 0;
+        }
+        .single-job_listing .company {
+            padding: 1em 2em 1em 1em;
+        }
+
     }
 
     @media (max-width: 479px) {

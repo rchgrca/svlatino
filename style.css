@@ -2526,6 +2526,9 @@
             font-family: 'Oswald', arial, serif;
             font-weight: bold;
         }
+        #content #mobile-hire-latino-button h4 {
+            text-transform: none;
+        }
         #backhome {
             display: block !important;
         }

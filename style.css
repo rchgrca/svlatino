@@ -2432,6 +2432,8 @@
     	/*display: none !important;*/
     }
 
+
+
     @media (max-width: 767px) {
 
         body.custom-background {
@@ -2503,8 +2505,10 @@
         #header {
             cursor: pointer;
         }
-        #mobile-more-button {
+        #mobile-more-button, #mobile-hire-latino-button {
             display: block !important;
+        }
+        #mobile-more-button {
             position: absolute;
             top: 7px;
             right: 25px;

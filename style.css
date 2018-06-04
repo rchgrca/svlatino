@@ -864,7 +864,6 @@
     }
 
     .after-post-ad {
-    	background-color: #;
     	margin: 5px 0 15px;
     	padding: 10px;
     	overflow: hidden;
@@ -1239,7 +1238,6 @@
     .featuredpost img,
     .post-image,
     .ui-tabs img {
-    	background-color: #;
     	border: 4px solid #eee;
     	padding: 1px;
     }
@@ -2653,7 +2651,7 @@
         /* shop latino business page css */
 
         .entry-content p, .vcard {
-            width: 298x;
+            width: 298px;
         }
         .cn-entry {
             width: 280px;

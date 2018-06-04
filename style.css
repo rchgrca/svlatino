@@ -2563,8 +2563,13 @@
         .entry-content p {
     	padding: 0 10px 15px 0;
         }
+        .single-post blockquote {
+            width: 240px;
+        }
         .single-post #content img {
             margin-top: 19px;
+            width: 234px;
+            height: auto;
         }
         .entry-content p iframe {
             width: 300px;
